@@ -1,44 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![](https://miro.medium.com/max/1400/1*kcKWkALuRHoea5Vblu62zw.gif)
 
-In the project directory, you can run:
+Up until lately, whenever we’d think of changing themes in run-time, we’d immediately go for some sort of a JS/JSX solution. That could be either theming through higher-order components, passing themes as props (usually with the help of React.Context) or using popular libraries like styled-components.
 
-### `yarn start`
+Today, thanks to ‘CSS custom properties’, a.k.a ‘CSS variables’, we shift the weight towards plain CSS. That is to say, there’s still a need for some JavaScript but as you’ll see, it plays a much minor role (as a side note — that should immediately tell you there’s a good chance of performance optimization).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## [Keep Reading](https://blog.bitsrc.io/theming-react-components-with-css-variables-ee52d1bb3d90)
