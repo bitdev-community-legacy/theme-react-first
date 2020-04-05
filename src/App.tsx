@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Notification from './components/Notification';
+import changeTheme from './utils/changeTheme.js';
 
-function App() {
+  let theme = 'light-theme';
+
+  const toggleThemes = () => {
+    if (theme === 'light-theme') {
+      changeTheme('dark-theme');
+      theme = 'dark-theme';
+    } else {
+      changeTheme('light-theme');
+      theme = 'light-theme'
+    }
+  }
+
+ const App = () =>  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='app' className="light-theme">
+      <Notification text="Click to change the theme." buttonLabel="Toggle" onClickMethod={toggleThemes} />
     </div>
   );
 }

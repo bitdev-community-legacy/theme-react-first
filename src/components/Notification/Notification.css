@@ -1,0 +1,20 @@
+.notif{
+    width: 20vw;
+    min-width: 400px;
+    border-color: var(--primary-color);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.notif-text-container{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.notif-button-container{
+    text-align: center;
+    margin-bottom: 10px;
+}
